@@ -1,4 +1,4 @@
-.container {
+.container1 {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -6,22 +6,22 @@
   margin-left: auto;
 }
 @media (min-width: 576px) {
-  .container {
+  .container1 {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .container {
+  .container1 {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-  .container {
+  .container1 {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .container1 {
     max-width: 1140px;
   }
 }
@@ -32,7 +32,7 @@
   margin-right: auto;
   margin-left: auto;
 }
-.navbar > .container,
+.navbar > .container1,
 .navbar > .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,69 +48,69 @@
 }
 
 @media (max-width: 575.98px) {
-  .navbar-expand-sm > .container,
+  .navbar-expand-sm > .container1,
   .navbar-expand-sm > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
 }
-  .navbar-expand-sm > .container,
+  .navbar-expand-sm > .container1,
   .navbar-expand-sm > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container,
+  .navbar-expand-md > .container1,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
 }
-  .navbar-expand-md > .container,
+  .navbar-expand-md > .container1,
   .navbar-expand-md > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 @media (max-width: 991.98px) {
-  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container1,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
 }
-  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container1,
   .navbar-expand-lg > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 @media (max-width: 1199.98px) {
-  .navbar-expand-xl > .container,
+  .navbar-expand-xl > .container1,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
 }
-  .navbar-expand-xl > .container,
+  .navbar-expand-xl > .container1,
   .navbar-expand-xl > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-.navbar-expand > .container,
+.navbar-expand > .container1,
 .navbar-expand > .container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
-.navbar-expand > .container,
+.navbar-expand > .container1,
 .navbar-expand > .container-fluid {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
 }
 .t
-  .container {
+  .container1 {
     min-width: 992px !important;
   }
  
-.row {
+.row1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +120,7 @@
   margin-left: -15px;
 }
 
-.form-row {
+.form-row1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,8 +130,8 @@
   margin-left: -5px;
 }
 
-.form-row > .col,
-.form-row > [class*="col-"] {
+.form-row1 > .col,
+.form-row1 > [class*="col-"] {
   padding-right: 5px;
   padding-left: 5px;
 }
