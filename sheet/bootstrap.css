@@ -188,3 +188,17 @@
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
+  .mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
