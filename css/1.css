@@ -1,3 +1,37 @@
+@media screen and (min-width: 1024px)
+body {
+    background-image: url(https://66.media.tumblr.com/8344bf9ba21fc40b06eb12427b153d86/2e7c26a4b0609dbe-4c/s540x810/0b7089e79df462370933fe64605f1d04a7336d75.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+body, ol, ul, p, span {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+body {
+    background: #fff;
+    -ms-overflow-x: hidden;
+    overflow-x: hidden;
+    color: #fff;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+
+
+
 #navigation {
     background: rgba(0,0,0,0.5);
     background-size: cover;
