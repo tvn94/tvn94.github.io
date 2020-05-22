@@ -1,5 +1,4 @@
 
-<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script>
 <!DOCTYPE html>
 <html class="no-js"> <!--<![endif]-->
     <head>
@@ -843,43 +842,5 @@ https://www.instagram.com/p/CAFRqXGAxr9/?igshid=tqlgjg3q9nif"/></a><div class="p
         
         
     
-<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
-    (function(){
-        var analytics_frame = document.getElementById('ga_target');
-        var analytics_iframe_loaded;
-        var user_logged_in;
-        var blog_is_nsfw = 'No';
-
-        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
-        var eventer = window[eventMethod];
-        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
-        eventer(messageEvent,function(e) {
-            var message = (e.data && e.data.split) ? e.data.split(';') : '';
-            switch (message[0]) {
-                case 'analytics_iframe_loaded':
-                    analytics_iframe_loaded = true;
-                    postCSMessage();
-                    postGAMessage();
-                    break;
-                case 'user_logged_in':
-                    user_logged_in = message[1];
-                    postGAMessage();
-                    break;
-            }
-        }, false);
-
-        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
-                              "https://gaixinhchonloc.com";
-        function postGAMessage() {
-            if (analytics_iframe_loaded && user_logged_in) {
-                var is_ajax = false;
-                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
-            }
-        }
-        function postCSMessage() {
-            COMSCORE = true;
-            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
-        }
-    })();
-</script></body>
+</body>
 </html>
