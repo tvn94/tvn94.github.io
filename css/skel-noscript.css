@@ -1,8 +1,4 @@
-/* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
 
-	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
-
-/* Box Model */
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
@@ -17,22 +13,10 @@
 	
 
 	.container1 {
-		width: 100%;
+		width: 30%;
 		margin-left: auto;
 		margin-right: auto;
 	}
-
-	/* Modifiers */
-	
-		.container1.small {
-			width: 90%;
-		}
-
-		.container1.big {
-			width: 100%;
-			max-width: 1500px;
-			min-width: 1200px;
-		}
 
 /* Grid */
 
@@ -101,66 +85,66 @@
 
 			/* Flush */
 
-				.row1.flush {
+				.row1.flush1 {
 					margin-left: 0;
 				}
 
-				.row1.flush > * {
+				.row1.flush1 > * {
 					padding: 0 !important;
 				}
 
 			/* Quarter */
 
-				.row1.quarter > * {
+				.row1.quarter1 > * {
 					padding: 12.5px 0 0 12.5px;
 				}
 
-				.row1.quarter + .row.quarter > * {
+				.row1.quarter1 + .row.quarter1 > * {
 					padding-top: 12.5px;
 				}
 
-				.row1.quarter {
+				.row1.quarter1 {
 					margin-left: -12.5px;
 				}
 
 			/* Half */
 
-				.row1.half > * {
+				.row1.half1 > * {
 					padding: 25px 0 0 25px;
 				}
 
-				.row1.half + .row.half > * {
+				.row1.half1 + .row.half1 > * {
 					padding-top: 25px;
 				}
 
-				.row1.half {
+				.row1.half1 {
 					margin-left: -25px;
 				}
 
 			/* One and (a) Half */
 
-				.row1.oneandhalf > * {
+				.row1.oneandhalf1 > * {
 					padding: 75px 0 0 75px;
 				}
 
-				.row1.oneandhalf + .row1.oneandhalf > * {
+				.row1.oneandhalf1 + .row1.oneandhalf1 > * {
 					padding-top: 75px;
 				}
 
-				.row1.oneandhalf {
+				.row1.oneandhalf1 {
 					margin-left: -75px;
 				}
 
 			/* Double */
 
-				.row1.double > * {
+				.row1.double1 > * {
 					padding: 100px 0 0 100px;
 				}
 
-				.row1.double + .row1.double > * {
+				.row1.double1 + .row1.double1 > * {
 					padding-top: 100px;
 				}
 
-				.row1.double {
+				.row1.double1 {
 					margin-left: -100px;
 				}
