@@ -164,7 +164,7 @@
     position: relative;
 }
 .sayHi:after {
-    content: '';
+    content: 'aaa';
     width: 0;
     height: 0;
     top: 100%;
