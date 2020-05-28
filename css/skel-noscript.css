@@ -162,6 +162,7 @@
     color: #fff;
     border-radius: 2px;
     position: relative;
+    text-align: right;
 }
 .sayHi:after {
     content: '';
