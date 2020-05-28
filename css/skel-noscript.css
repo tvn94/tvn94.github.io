@@ -180,7 +180,7 @@
     box-sizing: border-box;
 }
 
-.invisible p:nth-child(2) {
+.name p:nth-child(2) {
     color: #575757d1;
     font-family: 'roboto', sans-serif;
     font-weight: 400;
@@ -188,7 +188,7 @@
     letter-spacing: 0.6px;
 }
 
-.invisible .s {
+.name .s {
     text-shadow: 0.6px 0.6px 2px #3cb3716e;
 }
 .s {
