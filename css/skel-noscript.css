@@ -162,7 +162,6 @@
     color: #fff;
     border-radius: 2px;
     position: relative;
-    text-align: right;
 }
 .sayHi:after {
     content: '';
@@ -176,9 +175,7 @@
     border-width: 0 0 8px 8px;
     border-left-color: #f16a52;
 }
-*, *::before, *::after {
-    box-sizing: border-box;
-}
+
 .name p:nth-child(2) {
     color: #575757d1;
     font-family:  'roboto', sans-serif;
@@ -225,6 +222,8 @@
 
 .name p:first-child:hover:after {
 	transform: scaleY(1);
+    color: mediumseagreen;
+}
 }
 
 .name p:first-child span {
