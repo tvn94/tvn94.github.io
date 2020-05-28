@@ -468,7 +468,7 @@ body.navigationOn #miniAvatar, #miniAvatar.offCanvas {
 	display: table;
 	height: auto;
 	transition: opacity 0.2s linear;
-	min-width: 86%;
+	min-width: 99%;
 }
 
 .credit {
