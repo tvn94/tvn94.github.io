@@ -28,7 +28,7 @@ body {
 .invisible {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
-	opacity: 0;
+	opacity: 1;
 }
 
 p,span,a {
@@ -310,7 +310,6 @@ body.details .detailsWrapper.stuck .blurredBackground {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 	opacity: 1;
-	position: fixed;
 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
