@@ -336,7 +336,6 @@ body.details .detailsWrapper.stuck .blurredBackground {
 	-ms-animation: none;
 	-o-animation: none;
 	animation: none;
-	width: 100%;
 	text-align: center;
 	display: block;
 }
@@ -461,7 +460,7 @@ body.navigationOn #miniAvatar, #miniAvatar.offCanvas {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	display: table;
+	display: block;
 	height: auto;
 	transition: opacity 0.2s linear;
 	min-width: 99%;
@@ -1686,9 +1685,6 @@ body.permalink #tumblr_controls {
 	right: 75px !important;
 }
 
-#navigation.unhidden {
-	background-image: none;
-}
 
 body > #miniAvatar,#xButton {
 	display: block;
