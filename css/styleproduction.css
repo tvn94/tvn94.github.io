@@ -354,7 +354,9 @@ body.details.navigation #navigation {
 	letter-spacing: 4px;
 }
 
-
+body.permalink #navigation {
+	display: none;
+}
 
 .details #navigation {
 -webkit-transform: translate3d(-1500px,0,0);
@@ -453,14 +455,13 @@ body.navigationOn #miniAvatar, #miniAvatar.offCanvas {
 #navContent {
 	margin: auto;
 	text-align: center;
-	position: absolute;
 	color: #fff;
 	padding: 0 7% 0 7%;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	display: block;
+	display: table;
 	height: auto;
 	transition: opacity 0.2s linear;
 	min-width: 99%;
@@ -1685,6 +1686,9 @@ body.permalink #tumblr_controls {
 	right: 75px !important;
 }
 
+#navigation.unhidden {
+	background-image: none;
+}
 
 body > #miniAvatar,#xButton {
 	display: block;
