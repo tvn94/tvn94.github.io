@@ -28,7 +28,7 @@ body {
 .invisible {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
-	opacity: 1;
+	opacity: 0;
 }
 
 p,span,a {
