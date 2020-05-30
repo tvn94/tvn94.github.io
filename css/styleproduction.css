@@ -306,7 +306,7 @@ body.details .detailsWrapper.stuck .blurredBackground {
 
 }
 
- .navigation {
+ #navigation {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 	opacity: 1;
@@ -341,7 +341,7 @@ body.details .detailsWrapper.stuck .blurredBackground {
 	display: block;
 }
 
-body.details.navigation .navigation {
+body.details.navigation #navigation {
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	-o-transform: translate3d(0,0,0);
@@ -349,17 +349,17 @@ body.details.navigation .navigation {
 	transform: translate3d(0,0,0);
 }
 
-.navigation h1 {
+#navigation h1 {
 	margin: 0.67em 0;
 	font-size: 2.3em;
 	letter-spacing: 4px;
 }
 
-body.permalink .navigation {
+body.permalink #navigation {
 	display: none;
 }
 
-.details .navigation {
+.details #navigation {
 -webkit-transform: translate3d(-1500px,0,0);
 	-moz-transform: translate3d(-1500px,0,0);
 	-o-transform: translate3d(-1500px,0,0);
@@ -367,7 +367,7 @@ body.permalink .navigation {
 	transform: translate3d(-1500px,0,0);
 }
 
-body.permalink .navigation.unhidden,body.details .navigation.unhidden {
+body.permalink #navigation.unhidden,body.details #navigation.unhidden {
 	display: block !important;
 	-ms-transform: translateX(-100%);
 	-webkit-transform: translate3d(-100%,0,0);
@@ -386,7 +386,7 @@ body.permalink .navigation.unhidden,body.details .navigation.unhidden {
 	opacity: 1;
 }
 
-body.details.navigationOn .navigation.unhidden {
+body.details.navigationOn #navigation.unhidden {
 	-webkit-transform: translate3d(0,0,0) !important;
 	-moz-transform: translate3d(0,0,0) !important;
 	-o-transform: translate3d(0,0,0) !important;
@@ -416,12 +416,12 @@ body.details.navigationOn .navigation.unhidden {
 	animation: none;
 }
 
-.navigation.unhidden,.navigationOff .navigation,.navigationOn .navigation {
+#navigation.unhidden,.navigationOff #navigation,.navigationOn #navigation {
 	background: rgba(0,0,0,0.5) !important;
 	display: block !important;
 }
 
-.navigationOn .navigation,.navigationOn .detailsWrapper.active .permalinkContent,.navigationOff .detailsWrapper.active .permalinkContent,.navigationOff .detailsWrapper.active .sidebar,.navigationOn .detailsWrapper.active .sidebar,.navigationOn #xButton {
+.navigationOn #navigation,.navigationOn .detailsWrapper.active .permalinkContent,.navigationOff .detailsWrapper.active .permalinkContent,.navigationOff .detailsWrapper.active .sidebar,.navigationOn .detailsWrapper.active .sidebar,.navigationOn #xButton {
 	-webkit-transition: all 0.3s 0.3s ease !important;
 	-moz-transition: all 0.3s 0.3s ease !important;
 	-o-transition: all 0.3s 0.3s ease !important;
@@ -1688,7 +1688,7 @@ body.permalink #tumblr_controls {
 	right: 75px !important;
 }
 
-.navigation.unhidden {
+#navigation.unhidden {
 	background-image: none;
 }
 
@@ -2176,7 +2176,7 @@ body > #miniAvatar {
 }
 
 @media screen and (max-width: 768px) {
-	.navigation,.details .navigation {
+	#navigation,.details #navigation {
 	display: block;
 
 	-webkit-animation: none;
@@ -2201,7 +2201,7 @@ body > #miniAvatar {
 	transform: none;
 	}
 	
-	.navigation.unhidden,.navigationOn .navigation.unhidden {
+	#navigation.unhidden,.navigationOn #navigation.unhidden {
 		position: fixed !important;
 		height: 100%;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -2284,7 +2284,7 @@ body > #miniAvatar {
 		opacity: 1;
 	}
 	
-	.details .gridItem,.details .navigation {
+	.details .gridItem,.details #navigation {
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 		filter: alpha(opacity=0);
 		opacity: 0;
@@ -2604,7 +2604,7 @@ body > #miniAvatar {
 		width: 90%;
 	}
 	
-	.indexPage .navigation {
+	.indexPage #navigation {
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 		filter: alpha(opacity=100);
 		opacity: 1;
@@ -2663,11 +2663,11 @@ body > #miniAvatar {
 		padding: 20% 0;
 	}
 	
-	.gridItem.gridtext .gridTextContent,.gridQuoteContent,.gridAudioContent,.navigation {
+	.gridItem.gridtext .gridTextContent,.gridQuoteContent,.gridAudioContent,#navigation {
 		position: relative !important;
 	}
 	
-	.navigation {
+	#navigation {
 		display: block;
 		width: 100%;
 	
@@ -2688,7 +2688,7 @@ body > #miniAvatar {
 		overflow: hidden;
 	}
 	
-	.navigation.unhidden {
+	#navigation.unhidden {
 		-webkit-transform: translate3d(-100%,0,0) !important;
 		-moz-transform: translate3d(-100%,0,0) !important;
 		-o-transform: translate3d(-100%,0,0) !important;
@@ -2702,7 +2702,7 @@ body > #miniAvatar {
 		transition: transform 0.3s 0.2s ease;
 	}
 	
-	.navigationOff .navigation.unhidden {
+	.navigationOff #navigation.unhidden {
 		-webkit-transform: translate3d(-100%,0,0) !important;
 		-moz-transform: translate3d(-100%,0,0) !important;
 		-o-transform: translate3d(-100%,0,0) !important;
