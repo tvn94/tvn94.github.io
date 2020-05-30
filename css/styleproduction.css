@@ -337,9 +337,7 @@ body.details .detailsWrapper.stuck .blurredBackground {
 	-ms-animation: none;
 	-o-animation: none;
 	animation: none;
-	width: 30%;
 	text-align: center;
-    float: left;
 	display: block;
 }
 
