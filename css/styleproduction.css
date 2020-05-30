@@ -355,9 +355,7 @@ body.details.navigation #navigation {
 	letter-spacing: 4px;
 }
 
-body.permalink #navigation {
-	display: none;
-}
+
 
 .details #navigation {
 -webkit-transform: translate3d(-1500px,0,0);
