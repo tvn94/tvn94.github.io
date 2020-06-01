@@ -6,7 +6,7 @@
        <link rel="shortcut icon" href="https://tvn94.github.io/images/icon.png">
         <link rel="stylesheet" href="https://tvn94.github.io/css/styleproduction.cs2s">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://tvn94.github.io/css/skel-noscript.css" />
         <style>
         /* Colors */
         body, ol, ul, p, span {
@@ -53,12 +53,6 @@
         }
         .button:hover {
           color: #222;
-        }
-        #navigation {
-            background: rgba(0,0,0,0.5);
-            
-            
-            background-size: cover;
         }
         .sidebarContentSource::before {
           content: "Source";
@@ -129,8 +123,7 @@
 }
 #navigation h1 {
     color: #fff;
-}
-#navigation h1 {
+    font-weight: 100;
     margin: 0.67em 0;
     font-size: 2.3em;
     letter-spacing: 4px;
@@ -209,7 +202,7 @@
 
 @media screen and (min-width: 1024px) {
         #navigation {
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 30%;
     float: left;
@@ -223,7 +216,7 @@
     width: 70%;
     float: right;
 }
-        }
+                                    }
 
 
         .main1 {
@@ -295,8 +288,6 @@ section > :last-child, article > :last-child {
     box-sizing: border-box;
 }
 
-
-
 .feature-icon1 {
     display: inline-block;
     position: relative;
@@ -335,7 +326,6 @@ section > :last-child, article > :last-child {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
 
 .dark1 .feature-icon1:before {
     background: rgba(255,255,255,0.5);
@@ -376,7 +366,6 @@ section > :last-child, article > :last-child {
 }
         </style>
 
-        <link rel="stylesheet" href="https://tvn94.github.io/css/skel-noscript.css" />
     </head>
     <body>
         <div id="navigation" style="background-image: url(&quot;https://tvn94.github.io/images/10.png&quot;);">
