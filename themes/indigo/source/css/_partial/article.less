@@ -201,8 +201,8 @@
     >.highlight,
     >.image-bubble,
     >pre {
-        margin-left: -35px;
-        margin-right: -35px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     >.highlight,
@@ -459,6 +459,9 @@
     }
 }
 
+.post-list-item .headerlink:before {
+    visibility: hidden;
+}
 
 .comments {
     padding: 40px 0 0;
@@ -467,6 +470,10 @@
 @media screen and (max-width:760px) {
     .post-widget {
         display: none
+    }
+
+    .headerlink:before {
+        visibility: hidden;
     }
 
     .post-article {
@@ -496,8 +503,8 @@
 
     .post-nav {
         padding: 0;
-        margin-left: -16px;
-        margin-right: -16px;
+        margin-left: 0px;
+        margin-right: 0px;
         .prev,
         .next {
             width: 50%;
@@ -529,12 +536,17 @@
     .has-jax {
         font-size: 10px;
     }
+    
+    .headerlink:before {
+        visibility: hidden;
+    }
+
     .post-content {
         .highlight,
         .image-bubble,
         >pre {
-            margin-left: -16px;
-            margin-right: -16px;
+            margin-left: 0px;
+            margin-right: 0px;
         }
         .highlight,
         >pre {
